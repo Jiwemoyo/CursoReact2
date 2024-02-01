@@ -1,5 +1,6 @@
 import { ContadorComponent } from "./components/ContadorComponent";
 import { FormularioComponent } from "./components/FormularioComponent";
+import { UsusriosComponent } from "./components/UsusriosComponent";
 
 export const HooksApp = () => {
   return (
@@ -7,7 +8,8 @@ export const HooksApp = () => {
       <h1>Aplicacion de hooks</h1>
       <hr />
       {/* <ContadorComponent/> */}
-      <FormularioComponent/>
+      {/* <FormularioComponent/> */}
+      <UsusriosComponent/>
     </>
   );
 };

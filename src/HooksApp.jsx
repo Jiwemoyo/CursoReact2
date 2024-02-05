@@ -8,8 +8,8 @@ export const HooksApp = () => {
       <h1>Aplicacion de hooks</h1>
       <hr />
       {/* <ContadorComponent/> */}
-      {/* <FormularioComponent/> */}
-      <UsusriosComponent/>
+      <FormularioComponent/>
+      {/* <UsusriosComponent/> */}
     </>
   );
 };

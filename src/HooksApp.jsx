@@ -1,4 +1,5 @@
 import { CalculosPesados } from "./components/CalculosPesados";
+import { CallBackComponent } from "./components/CallBackComponent";
 import { ContadorComponent } from "./components/ContadorComponent";
 import { FormularioComponent } from "./components/FormularioComponent";
 import { UsusriosComponent } from "./components/UsusriosComponent";
@@ -11,7 +12,8 @@ export const HooksApp = () => {
       {/* <ContadorComponent/> */}
       {/* <FormularioComponent/> */}
       {/* <UsusriosComponent/> */}
-      <CalculosPesados/>
+      {/* <CalculosPesados/> */}
+      <CallBackComponent/>
     </>
   );
 };
